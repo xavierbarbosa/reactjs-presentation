@@ -7,19 +7,15 @@
     <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
   </head>
   <body>
-
     <div id="root"></div>
-    
     <script type="text/javascript">
       var Hello = function (props) {
           return React.createElement('h1', {className: 'greeting'}, 'Hello, ' + props.name + '!');
       };
-
       ReactDOM.render(
         Hello({name: 'Madeira Tech Meetup'}),
         document.getElementById('root')
       );
     </script>
-
   </body>
 </html>
