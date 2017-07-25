@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 class Avatar extends Component {
@@ -25,7 +25,7 @@ class Avatar extends Component {
 }
 
 Avatar.propTypes = {
-  photo: PropTypes.string.isRequired,
+    photo: PropTypes.string.isRequired,
 };
 
 export default Avatar;

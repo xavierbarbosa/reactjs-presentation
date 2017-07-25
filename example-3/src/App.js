@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import TopBar from './Components/TopBar';
 import Counter from './Components/Counter';
 import AddInput from './Components/AddInput';
