@@ -8,8 +8,8 @@ class TopBar extends Component {
 
     return (
       <div className="app-top-bar">
-        <Avatar photo={user.photo} />
-        {user.name}
+        <h1>The Counter Machine</h1>
+        <Avatar photo={user.photo} name={user.name} />
       </div>
     );
   }
