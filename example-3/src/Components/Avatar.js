@@ -26,6 +26,7 @@ class Avatar extends Component {
 
 Avatar.propTypes = {
     photo: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
 };
 
 export default Avatar;
